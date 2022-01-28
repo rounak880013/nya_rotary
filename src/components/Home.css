@@ -1,0 +1,516 @@
+.banner{
+  margin-left: 9.278%;
+  margin-right: 9.278%;
+  margin-top: 25px;
+}
+.banner_1{
+  display: flex;
+}
+.container {
+  position: relative;
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #333333;
+  display: block;
+}
+
+.container:hover .overlay {
+  opacity: 0.8;
+}
+
+.text {
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  color: #FFFFFF;
+}
+.text_1{
+  font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 12px;
+/* identical to box height, or 100% */
+
+letter-spacing: 0.2em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+/* .banner_1_a{
+  width: 48.10%;
+  height: fit-content;
+}
+.banner_1_b{
+  width: 48.10%;
+  height: fit-content;
+  margin-left: auto;
+} */
+.banner_2{
+  display: flex;
+  margin-top: 29px;
+}
+.imageg{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.rty{
+  margin-left: 30px;
+  width: 100%;
+}
+.rtya{
+  width: 22.78%;
+  height: auto;
+}
+.rtyb{
+  width: 39.66%;
+  height: auto;
+  margin-left: auto;
+}
+.rtyc{
+  width: 31.22%;
+  height: auto;
+  margin-left: auto;
+}
+.banner_Heading{
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 64px;
+  color: #1D4781;
+}
+.banner_bottom{
+  display: flex;
+}
+.banner_bottom_button{
+  margin-left: auto;
+  background: #1D4781;
+  width: 222px;
+  height: 71px;
+  margin-top: 10px;
+}
+.banner_bottom_button>button{
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 12px;
+  letter-spacing: 0.2em;
+  margin-top: 30px;
+  margin-left: 35px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #1D4781;
+  border: solid #1D4781 3px;
+}
+.banner_3{
+  display: flex;
+  margin-top: 29px;
+}
+.banner_4{
+  display: none;
+}
+@media only screen and (max-width: 650px){
+  .text{
+    font-family: Georgia;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 37px;
+/* or 156% */
+
+
+color: #FFFFFF;
+  }
+}
+@media only screen and (max-width: 1300px){
+.banner_3{
+  display: none;
+  margin-top: 15px;
+}
+.banner_4{
+  display: block;
+  margin-top: 10px;
+}
+.tempacola{
+  display: flex;
+}
+.rtyq{
+  width: 49%;
+}
+.rtyw{
+  margin-left: auto;
+  width: 49%;
+}
+.rtye{
+  width: 100%;
+  margin-top: 10px;
+}
+  .banner_1{
+    flex-direction: column;
+  }
+  .rty{
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+  .banner_2{
+    flex-direction: column;
+  }
+}
+/*    ---------------------------------------------------------------------------------------------------------------             */
+.signup_1{
+  display: flex;
+}
+.signup_1_a{
+  width: 32.236%;
+}
+.signup_1_b{
+  width: 63.2067%;
+  margin-left: auto;
+}
+.Name{
+  margin-top: 6px;
+  width:100%;
+  height: 48px;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+border-radius: 8px;
+}
+.Email{
+  margin-top: 6px;
+  width:100%;
+  height: 48px;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+border-radius: 8px;
+}
+.Phone_number{
+  margin-top: 6px;
+  width:100%;
+  height: 48px;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+border-radius: 8px;
+}
+.Message{
+  margin-top: 6px;
+  width:100%;
+  height: 128px;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+border-radius: 8px;
+}
+.imagea{
+  width:100%;
+  height: 100%;
+}
+.text_2{
+  margin-top: 24px;
+  font-family: Arial;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 20px;
+}
+.text_2_a{
+  font-family: Arial;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 20px;
+}
+.contact_us{
+  margin-top: 10px;
+}
+.contact_us>button{
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 12px;
+  letter-spacing: 0.2em;
+  width: 222px;
+  height: 71px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #1D4781;
+  border: solid #1D4781 3px;
+  display: flex;
+}
+.contact_us_A{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.contact_us_A_a{
+  margin-left: 5px;
+}
+@media only screen and (max-width: 820px){
+  .signup_1{
+    flex-direction: column-reverse;
+  }
+  .signup_1_a{
+    width: 100%;
+  }
+  .signup_1_b{
+    margin-top: 28px;
+    width: 100%;
+  }
+  .banner{
+    margin-top: 60px;
+  }
+  .text_2_a{
+    margin-top: 25px;
+  }
+}
+/*    ---------------------------------------------------------------------------------------------------------------             */
+footer{
+  margin-top: 120px;
+  font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+background: #2C2C2C;
+}
+.logo{
+  
+  margin-top: 56px;
+}
+.cont{
+  display: flex;
+}
+.footerdistance{
+  margin-left: 8.05%;
+  display: flex;
+}
+.footer1A{
+  margin-left: 7.222%;
+  margin-top: 56px;
+}
+.footer1B{
+  margin-left: 25%;
+  margin-top: 56px;
+  width: 25.722222%;
+}
+.social{
+  margin-top: 56px;
+}
+.footername{
+  margin-top: 25px;
+  font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+}
+.footerinform{
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: flex-end;
+
+color: #FFFFFF;
+}
+.footerspace{
+  margin-top: 16px;
+  font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+}
+.margincont{
+  margin-left: 19px;
+}
+.cont_a{
+  margin-top: 25px;
+  display: flex;
+}
+.cont_b{
+  margin-top: 13px;
+  display: flex;
+}
+.cont_c{
+  margin-top: 19px;
+  display: flex;
+}
+.social_space{
+  margin-left: 40px;
+}
+.footerline{
+  border-top: 1px solid #FFFFFF;
+  margin-top: 20px;
+}
+.copyright{
+  display: flex;
+  justify-content: center;
+  margin-top:24px;
+  padding-bottom: 24px;
+}
+
+.footerdata{
+  display: flex;
+}
+.margincont{
+  display: flex;
+}
+@media only screen and (max-width: 820px) {
+  .footerdistance{
+    margin-left: 27px;
+    flex-direction: column;
+  }
+  .logo{
+    display: flex;
+    justify-content: center;
+  }
+  .footerdata{
+    display: flex;
+  }
+  .footer1B{
+    margin-left: 25%;
+    width:51%;
+  }
+  .footer1A{
+    margin-left: 0px;
+  }
+  
+.margincont{
+  display: flex;
+  flex-direction: column;
+  margin-left: 3px;
+  font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+}
+
+}
+@media only screen and (max-width: 400px) {
+  .footer1B{
+    margin-left: 9px;
+    width:51%;
+  }
+}
+/*    ---------------------------------------------------------------------------------------------------------------             */
+.banner_about{
+  display: flex;
+}
+.banner_about{
+  margin-top:25px;
+  margin-left: 9.278%;
+  margin-right: 9.278%;
+  background-color:#FBFBFB;
+  ;
+}
+.about_us_a{
+  width: 50%;
+  display: flex;
+}
+.about_us_b{
+  margin-left: auto;
+  width: 48%;
+  font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 25px;
+color: #333333;
+}
+.about_us_c{
+  margin-left: 30px;
+  width: 49%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.about_us_d{
+  width: 49%;
+}
+.imagegg {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: 23px;
+}
+.about_us_e{
+  font-family: Georgia;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 64px;
+color: #1D4781;
+}
+.about_us_g{
+  display: none;
+}
+@media only screen and (max-width: 1050px) {
+  .about_us_g{
+    display: block;
+    font-family: Georgia;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 64px;
+  color: #1D4781;
+  }
+  .about_us_e{
+    display: none;
+  }
+  .banner_about{
+    flex-direction: column;
+  }
+  .about_us_a{
+    width: 100%;
+  }
+  .about_us_b{
+    width: 100%;
+  }
+}
