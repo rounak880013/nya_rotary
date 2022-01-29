@@ -6,15 +6,11 @@ import Banner from './components/Banner'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Aboutus from './components/Aboutus'
+import About from './components/About'
 const App = () => {
   return (
     <>
-      <Navbar />
-      <Carousell />
-      <Aboutus />
-      <Banner />
-      <Contact />
-      <Footer />
+      <About/>
       </>
   );
 };

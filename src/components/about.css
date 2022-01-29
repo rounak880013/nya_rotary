@@ -1,79 +1,198 @@
-@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap");
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Jost", sans-serif;
-  }
-  
-html {
-    font-size: 62.5%;
-  }
-
-
-/* main about style */
-
-.main-about {
-    margin: 3rem;
-    width: 90%;
-    height: 100%;
-    display: grid;
-    grid-template-columns: 20rem 1fr 1fr 2fr 10rem;
-    grid-column-gap: 2rem;
-    
-    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
-  }
-.about1 {
-    margin: 3rem;
-    width: 100%;
-    height: 100%;
-    display: grid;
-    grid-template-rows: 0.1fr 1fr 2fr 0.5fr ;
-    grid-column: 4/6;
-  }
-
-  .main-image{
-    margin: 0rem;
-    width: 100%;
-    height: 100%;
-    display: grid;
-    grid-template-rows: 2fr 1fr ;
-    grid-column: 2/3;
-    grid-row-gap: 2rem;
-
-  }
-.image2{
-  /* width: 100%; */
-  margin-top: 4rem;
-
+.about_header{
+  margin-top: 0px;
+  background-color:#1D4781;
+  display: flex;
 }
-.img1{
-  height: 270px;
-  width: 265px;
-}
-/* .img2{
-  height: 269px;
-  width: 140px;
-} */
+.about_header_a{
+  margin-top: 65px;
+  margin-bottom: 62px;
+  margin-left: 9.53%;
+  background-color:#1D4781;
+  font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+/* identical to box height, or 50% */
 
-@media (max-width:720px) {
-  
-.main-image{
-  display: none;
+letter-spacing: 0.2em;
+
+color: #FFFFFF;
 }
-.main-about {
-  margin: 3rem;
-  width: 90%;
+.about_header_a_a{
+  margin-top: 54px;
+  font-family: Georgia;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+/* or 19% */
+
+letter-spacing: 0.2em;
+
+color: #FFFFFF;
+}
+.about_header_b{
+  margin-top: 111px;
+  margin-right: 9.51%;
+  margin-left: auto;
+  width: 28.4722%;
+  font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 26px;
+/* or 144% */
+
+letter-spacing: 0.2em;
+
+color: #FFFFFF;
+}
+.about_a_a{
+  margin-top: 34px;
+  margin-left: 9.51%;
+  margin-right: 9.51%;
+  font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+/* or 117% */
+
+letter-spacing: 0.2em;
+
+/* 1 */
+
+color: #EEA03C;
+}
+.about_a_b{
+  margin-top:50px;
+  margin-left: 9.51%;
+  margin-right: 9.51%;
+  display: flex;
+}
+.about_a_b_a{
+  width: 49.522%;
+  font-family: Arial;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 29px;
+letter-spacing: 0.15em;
+
+/* 3 */
+
+color: #333333;
+}
+.about_a_b_b{
+  width: 36.40%;
+  margin-left: auto;
+  font-family: Arial;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 29px;
+letter-spacing: 0.15em;
+
+/* 3 */
+
+color: #333333;
+}
+.about_a_b_c{
+  margin-top: 30px;
+  font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 32px;
+/* or 162% */
+
+letter-spacing: 0.15em;
+
+/* 3 */
+
+color: #333333;
+}
+
+.about_a_c{
+  display: flex;
+  margin-left: 9.51%;
+  margin-right: 9.51%;
+}
+.about_a_c_a{
+  width: 48%;
+}
+.about_a_c_b{
+  width: 48%;
+  margin-left: auto;
+}
+.about_a_c_c{
+  display: flex;
+  margin-left: 9.51%;
+  margin-right: 9.51%;
+  margin-top: 25px;
+}
+.about_a_c_c_a{
+  width: 23.45%;
+}
+.about_a_c_c_b{
+  margin-left: auto;
+  width: 40.83%;
+}
+.about_a_c_c_c{
+  margin-left: auto;
+  width: 32.14%;
+}
+.container {
+  position: relative;
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   height: 100%;
-  display: grid;
-  grid-template-columns: 10rem 1fr 2fr 3fr 3fr 0.5fr 10rem;
-  grid-column-gap: 2rem;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #333333;
+  display: flex;
+}
+.overlay_a{
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 13px;
+}
+.container:hover .overlay {
+  opacity: 0.8;
 }
 
+.text {
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  color: #FFFFFF;
+}
+.text_1{
+  font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 12px;
+/* identical to box height, or 100% */
 
+letter-spacing: 0.2em;
+text-transform: uppercase;
 
-
-
+color: #FFFFFF;
 }
