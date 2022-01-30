@@ -55,7 +55,7 @@ const App = () => {
         <img src={image1} alt="Avatar" class="image"/>
         <div class="overlay">
         <div className="overlay_a">
-        <div class="text">Our <br/>History</div>
+        <div class="about_text">Our <br/>History</div>
           <div class="text_1">View More<FaArrowRight/></div>
         </div>
         </div>
@@ -66,7 +66,7 @@ const App = () => {
         <img src={image2} alt="Avatar" class="image"/>
         <div class="overlay">
           <div className="overlay_a">
-        <div class="text">The <br/> Structure</div>
+        <div class="about_text">The <br/> Structure</div>
           <div class="text_1">View More<FaArrowRight/></div>
         </div>
         </div>
@@ -79,7 +79,7 @@ const App = () => {
         <img src={image3} alt="Avatar" class="image"/>
         <div class="overlay">
           <div className="overlay_a">
-        <div class="text">Our <br/>Leaders</div>
+        <div class="about_text">Our <br/>Leaders</div>
           <div class="text_1">View More<FaArrowRight/></div>
         </div>
         </div>
@@ -90,7 +90,7 @@ const App = () => {
         <img src={image4} alt="Avatar" class="image"/>
         <div class="overlay">
           <div className="overlay_a">
-        <div class="text">The <br/>Finances</div>
+        <div class="about_text">The <br/>Finances</div>
           <div class="text_1">View More<FaArrowRight/></div>
         </div>
         </div>
@@ -101,7 +101,7 @@ const App = () => {
         <img src={image5} alt="Avatar" class="image"/>
         <div class="overlay">
           <div className="overlay_a">
-        <div class="text">Our <br/>Partners</div>
+        <div class="about_text">Our <br/>Partners</div>
           <div class="text_1">View More<FaArrowRight/></div>
         </div>
         </div>

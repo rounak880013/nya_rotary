@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+  }
+  body{
+    margin: 0px;
+  }
+  .banner-container_Rrrr {
+    display: flex;
+    width: 100%;
+  left: 0px;
+  text-align: center;
+  background: url('../assests/business-man-financial-inspector-secretary-making-report-calculating-checking-balance-internal-revenue-service-inspector-checking-document-audit-concept\ 1\ \(1\).png');
+    padding: 0px 0px;
+    background-repeat: no-repeat;
+    font-family: Georgia;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  /* identical to box height, or 61% */
+  
+  text-align: justify;
+  letter-spacing: 0.1em;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  background-size: 100% 533px;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.69);
+  }
+  .finannnn{
+    display: flex;
+    height: 579px;
+  }
+  .banner-container__text{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 114px;
+  }
+  @media (max-width: 768px) {
+    .banner-container_Rrrr {
+        padding: 100px 15px;
+    }
+  }
+  .about_d_a{
+    margin-top: 25px;
+    margin-left: 9.51%;
+    margin-right: 9.51%;
+    font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 39px;
+  /* or 162% */
+  
+  letter-spacing: 0.1em;
+  
+  /* 3 */
+  
+  color: #333333;
+  }
+  .partner_a{
+    display: flex;
+    flex-direction: column;
+    margin-left: 9.51%;
+    margin-right: 9.51%;
+    background: #FBFBFB;
+    padding-bottom: 58px;
+  }
+  .partner_b{
+    margin-top: 12px;
+    margin-left: 3px;
+    font-family: Georgia;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 64px;
+  /* identical to box height, or 100% */
+  
+  
+  /* 2 */
+  
+  color: #1D4781;
+  }
+  
+  .partner_c{
+    font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 39px;
+  /* identical to box height, or 162% */
+  
+  letter-spacing: 0.1em;
+  
+  /* 3 */
+  
+  color: #333333;
+  margin-top: 15px;
+  }
+  .partner_d{
+    margin-top: 31px;
+    font-family: Georgia;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 64px;
+  /* identical to box height, or 178% */
+  
+  
+  /* 2 */
+  
+  color: #1D4781;
+  
+  }
+  .partner_e{
+    margin-top: 10px;
+    font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 39px;
+  /* or 162% */
+  
+  letter-spacing: 0.1em;
+  
+  /* 3 */
+  
+  color: #333333;
+  }
+  .partner_f{
+    display: flex;
+    margin-top: 36px;
+  }
+  .contact_us_rt{
+    margin-top: 10px;
+    margin-left: 9.51%;
+  }
+  .contact_us_rt>button{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 12px;
+    letter-spacing: 0.2em;
+    width: 222px;
+    height: 71px;
+    text-transform: uppercase;
+    color: #1D4781;
+    background: white;
+    border: solid #1D4781 3px;
+    display: flex;
+  }
+  .contact_us_A_rt{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .contact_us_A_a_rt{
+    margin-left: 5px;
+  }
+  .partner_h{
+    margin-left: auto;
+    margin-right: auto;
+  }

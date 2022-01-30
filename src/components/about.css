@@ -166,6 +166,7 @@ color: #333333;
   transition: .5s ease;
   background-color: #333333;
   display: flex;
+  flex-direction: column;
 }
 .overlay_a{
   margin-top: auto;
@@ -176,7 +177,7 @@ color: #333333;
   opacity: 0.8;
 }
 
-.text {
+.about_text {
   font-family: Georgia;
   font-style: normal;
   font-weight: bold;

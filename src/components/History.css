@@ -1,0 +1,123 @@
+body{
+    margin: 0px;
+  }
+  .banner-container_Rrrr {
+    display: flex;
+    width: 100%;
+  left: 0px;
+  text-align: center;
+  background: url('../assests/about\ image\ 37.png');
+    padding: 0px 0px;
+    background-repeat: no-repeat;
+    font-family: Georgia;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  /* identical to box height, or 61% */
+  
+  text-align: justify;
+  letter-spacing: 0.1em;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  background-size: 100% 533px;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.69);
+  }
+  .finannnn{
+    display: flex;
+    height: 579px;
+  }
+  .banner-container__text{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 114px;
+  }
+  @media (max-width: 768px) {
+    .banner-container_Rrrr {
+        padding: 100px 15px;
+    }
+  }
+  @media (max-width: 550px) {
+    .banner-container_Rrrr{
+      background: url('../assests/about\ image\ 37\ \(1\).png');
+    }
+  }
+  .about_d_a{
+    margin-top: 25px;
+    margin-left: 9.51%;
+    margin-right: 9.51%;
+    font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 39px;
+  /* or 162% */
+  
+  letter-spacing: 0.1em;
+  
+  /* 3 */
+  
+  color: #333333;
+  }
+  .about_b_a{
+    display: flex;
+    flex-direction: column;
+    background: #1D4781;
+  }
+  .about_b_a_a{
+    margin-left: 9.51%;
+    margin-right: 9.51%;
+    font-family: Georgia;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 60px;
+  /* or 150% */
+  
+  text-align: justify;
+  letter-spacing: 0.105em;
+  
+  color: #FFFFFF;
+  margin-top: 46px;
+  }
+  .about_b_a_b{
+    display: flex;
+    margin-right: 9.51%;
+    margin-bottom: 19px;
+    margin-top: 9px;
+  }
+  .about_b_a_b_a{
+    display: flex;
+    margin-left: auto;
+  }
+  .about_b_a_b_b{
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 39px;
+  /* or 162% */
+  
+  text-align: justify;
+  letter-spacing: 0.1em;
+  
+  color: #FFFFFF;
+  }
+  .about_a_a_a_a_a{
+    font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 39px;
+  /* identical to box height, or 108% */
+  margin-left: 9.51%;
+  margin-right: 9.51%;
+  margin-top: 45px;
+  text-align: justify;
+  letter-spacing: 0.1em;
+  
+  /* 3 */
+  
+  color: #333333;
+  }
