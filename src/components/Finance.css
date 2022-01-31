@@ -1,7 +1,7 @@
 body{
     margin: 0px;
   }
-  .banner-container_Rrrr {
+  .banner-container_Rrrr_fin {
     display: flex;
     width: 100%;
   left: 0px;
@@ -23,21 +23,21 @@ body{
   background-size: 100% 533px;
   text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.69);
   }
-  .finannnn{
+  .finannnn_fin{
     display: flex;
     height: 579px;
   }
-  .banner-container__text{
+  .banner-container__text_fin{
     margin-left: auto;
     margin-right: auto;
     margin-top: 114px;
   }
   @media (max-width: 768px) {
-    .banner-container_Rrrr {
+    .banner-container_Rrrr_fin {
         padding: 100px 15px;
     }
   }
-  .about_d_a{
+  .about_d_a_fin{
     margin-left: 9.51%;
     margin-right: 9.51%;
     font-family: Arial;
@@ -114,4 +114,58 @@ body{
   }
   .contact_us_A_a_rt{
     margin-left: 5px;
+  }
+  @media (max-width: 550px) {
+    .banner-container_Rrrr_fin{
+      background: url('../assests/Finance_mobile.png');
+      padding: 0px 0px;
+      background-repeat: no-repeat;
+      background-size: 100% 533px;
+    }
+    .about_d_a_fin{
+      margin-left: 19px;
+      margin-right: 18px;
+      font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 30px;
+/* or 200% */
+
+letter-spacing: 0.1em;
+
+/* 3 */
+
+color: #333333;
+    }
+    .about_d_b{
+      margin-left: 19px;
+      margin-right: 18px;
+      margin-top: 50px;
+    }
+    .about_d_b_a{
+      font-family: Georgia;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 64px;
+/* identical to box height, or 213% */
+
+
+/* 2 */
+
+color: #1D4781;
+    }
+    .about_d_b_b{
+      font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 30px;
+/* or 200% */
+
+letter-spacing: 0.1em;
+
+color: #000000;
+    }
   }

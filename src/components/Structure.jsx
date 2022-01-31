@@ -7,14 +7,14 @@ import image3 from "../assests/about Rectangle 2572.png"
 function Structure(){
     return(
         <>
-        <div className="finannnn">
-    <div className="banner-container_Rrrr">
-      <div className="banner-container__text">
+        <div className="finannnn_structure">
+    <div className="banner-container_Rrrr_structure">
+      <div className="banner-container__text_structure">
       Our Structure
       </div>
     </div>
     </div>
-    <div className="about_d_a">
+    <div className="about_d_a_structure">
     Rotary is made up of three parts: our clubs, Rotary International, and The Rotary Foundation. Together, we work to make lasting change in our communities and around the world.
     </div>
     <div className="about_c_a">

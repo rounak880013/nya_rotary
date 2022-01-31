@@ -3,14 +3,14 @@ import { FaArrowRight } from 'react-icons/fa';
 function Finance(){
     return(
         <>
-    <div className="finannnn">
-    <div className="banner-container_Rrrr">
-      <div className="banner-container__text">
+    <div className="finannnn_fin">
+    <div className="banner-container_Rrrr_fin">
+      <div className="banner-container__text_fin">
         Our Finances
       </div>
     </div>
     </div>
-    <div className="about_d_a">
+    <div className="about_d_a_fin">
     Our leaders at Rotary exemplify all of the qualities that make our members extraordinary: integrity, expertise, and a commitment to service.
 <br/>
 Rotary is led by a diverse international team of top executives. Whether developing Rotary policy, providing financial support, managing a global staff, or advancing Rotary’s strategic plan, each member of the team is dedicated to helping our members connect and take action to create sustainable change.

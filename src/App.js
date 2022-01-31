@@ -11,11 +11,13 @@ import Finance from './components/Finance'
 import History from './components/History'
 import Structure from './components/Structure'
 import Partner from './components/Partner'
+import Leader from './components/Leader'
 const App = () => {
+  
   return (
     <>
     <Navbar/>
-      <Partner/>
+      <History/>
       <Footer/>
       </>
   );

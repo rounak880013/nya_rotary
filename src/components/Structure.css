@@ -4,7 +4,7 @@
   body{
     margin: 0px;
   }
-  .banner-container_Rrrr {
+  .banner-container_Rrrr_structure {
     display: flex;
     width: 100%;
   left: 0px;
@@ -25,26 +25,16 @@
   background-size: 100% 533px;
   text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.69);
   }
-  .finannnn{
+  .finannnn_structure{
     display: flex;
     height: 579px;
   }
-  .banner-container__text{
+  .banner-container__text_structure{
     margin-left: auto;
     margin-right: auto;
     margin-top: 114px;
   }
-  @media (max-width: 768px) {
-    .banner-container_Rrrr {
-        padding: 100px 15px;
-    }
-  }
-  @media (max-width: 550px) {
-    .banner-container_Rrrr{
-      background: url('../assests/about\ image\ 39 (1).png');
-    }
-  }
-  .about_d_a{
+  .about_d_a_structure{
     margin-top: 25px;
     margin-left: 9.51%;
     margin-right: 9.51%;
@@ -162,8 +152,72 @@
     }
     .curs_box{
       display: block;
+      margin-top:72px;
+      margin-right: 9px;
+      margin-left: 16px;
     }
+    .about_c_a_a_b{
+      font-family: Georgia;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 39px;
+/* or 162% */
+
+text-align: center;
+letter-spacing: 0.1em;
+
+color: #FFFFFF;
+    }
+    
     .about_c_a_a_c{
       height: 240px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .banner-container_Rrrr_structure {
+        padding: 100px 15px;
+    }
+  }
+  @media (max-width: 550px) {
+    .banner-container_Rrrr_structure{
+      background: url('../assests/about\ image\ 39 (1).png');
+      padding: 0px 0px;
+      background-repeat: no-repeat;
+      background-size: 100% 533px;
+    }
+    .banner-container__text_structure{
+      font-family: Georgia;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 60px;
+/* or 125% */
+
+text-align: justify;
+letter-spacing: 0.1em;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.69);
+    }
+    .about_d_a_structure{
+      margin-top: 0px;
+      margin-left: 19px;
+      margin-right: 12px;
+      font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 30px;
+/* or 200% */
+
+letter-spacing: 0.1em;
+
+/* 3 */
+
+color: #333333;
     }
   }

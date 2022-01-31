@@ -1,7 +1,7 @@
 body{
     margin: 0px;
   }
-  .banner-container_Rrrr {
+  .banner-container_Rrrr_history {
     display: flex;
     width: 100%;
   left: 0px;
@@ -22,26 +22,23 @@ body{
   background-size: 100% 533px;
   text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.69);
   }
-  .finannnn{
+  .finannnn_history{
     display: flex;
     height: 579px;
   }
-  .banner-container__text{
+  .banner-container__text_history{
     margin-left: auto;
     margin-right: auto;
     margin-top: 114px;
+
   }
   @media (max-width: 768px) {
-    .banner-container_Rrrr {
+    .banner-container_Rrrr_history {
         padding: 100px 15px;
     }
   }
-  @media (max-width: 550px) {
-    .banner-container_Rrrr{
-      background: url('../assests/about\ image\ 37\ \(1\).png');
-    }
-  }
-  .about_d_a{
+
+  .about_d_a_history{
     margin-top: 25px;
     margin-left: 9.51%;
     margin-right: 9.51%;
@@ -120,4 +117,88 @@ body{
   /* 3 */
   
   color: #333333;
+  }
+  @media (max-width: 550px) {
+    .about_d_a_history{
+      margin-top: 0px;
+      margin-left: 19px;
+      margin-right: 19px;
+      font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 30px;
+/* or 200% */
+
+letter-spacing: 0.1em;
+
+/* 3 */
+
+color: #333333;
+
+    }
+    .banner-container_Rrrr_history{
+      background: url('../assests/about\ image\ 37\ \(1\).png');
+      padding: 0px 0px;
+    background-repeat: no-repeat;
+    background-size: 100% 533px;
+    font-family: Georgia;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 39px;
+/* identical to box height, or 81% */
+
+text-align: justify;
+letter-spacing: 0.1em;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.69);
+    }
+    .about_b_a_a{
+      margin-top:36px;
+      margin-left: 21px;
+      margin-right: 14px;
+      font-family: Georgia;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 46px;
+/* or 166% */
+
+letter-spacing: 0.105em;
+
+color: #FFFFFF;
+    }
+    .about_b_a{
+      margin-top: 50px;
+    }
+    .about_b_a_b{
+      margin-bottom: 73px;
+    }
+    .about_a_a_a_a_a{
+      font-family: Arial;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 39px;
+/* or 130% */
+
+letter-spacing: 0.1em;
+
+/* 3 */
+
+color: #333333;
+margin-left: 16px;
+margin-right: 16px;
+
+    text-align:left;
+    
+    }
+    .about_d_a_history{
+      margin-right: 16px;
+      margin-left: 16px;
+    }
   }
