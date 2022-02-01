@@ -1,17 +1,17 @@
 import React from "react";
 import './about.css';
-import Footer from './Footer';
-import Navbar from './Navbar';
 import image1 from '../assests/about image 30.png'
 import image2 from '../assests/image_about_31.png'
 import image3 from '../assests/about image 32.png'
 import image4 from '../assests/about image 33.png'
 import image5 from '../assests/about image 34.png'
+import image6 from '../assests/about image 33(1).png'
+import image7 from '../assests/about image 34(1).png'
+import image8 from '../assests/about image 32(1).png'
 import { FaArrowRight } from 'react-icons/fa'
 const App = () => {
   return (
     <>
-    <Navbar />
     <div className="about_header">
       <div className="about_header_a">
           Learn more about
@@ -73,7 +73,9 @@ const App = () => {
       </div>
       </div>
     </div>
+    <div className="About_atatata">
     <div className="about_a_c_c">
+      <div className="divider_about">
     <div className="about_a_c_c_a">
     <div class="container">
         <img src={image3} alt="Avatar" class="image"/>
@@ -96,6 +98,7 @@ const App = () => {
         </div>
       </div>
     </div>
+    </div>
     <div className="about_a_c_c_c">
     <div class="container">
         <img src={image5} alt="Avatar" class="image"/>
@@ -108,8 +111,46 @@ const App = () => {
       </div>
     </div>
     </div>
-    
-    <Footer />
+    </div>
+    <div className="About_atatataaaaaaaaaaaaaa">
+    <div className="about_a_c_c">
+      <div className="divider_about">
+    <div className="about_a_c_c_a">
+    <div class="container">
+        <img src={image8} alt="Avatar" class="image"/>
+        <div class="overlay">
+          <div className="overlay_a">
+        <div class="about_text">Our <br/>Leaders</div>
+          <div class="text_1">View More<FaArrowRight/></div>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div className="about_a_c_c_b">
+    <div class="container">
+        <img src={image6} alt="Avatar" class="image"/>
+        <div class="overlay">
+          <div className="overlay_a">
+        <div class="about_text">The <br/>Finances</div>
+          <div class="text_1">View More<FaArrowRight/></div>
+        </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div className="about_a_c_c_c">
+    <div class="container">
+        <img src={image7} alt="Avatar" class="image"/>
+        <div class="overlay">
+          <div className="overlay_a">
+        <div class="about_text">Our <br/>Partners</div>
+          <div class="text_1">View More<FaArrowRight/></div>
+        </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
     </>
   );
 };

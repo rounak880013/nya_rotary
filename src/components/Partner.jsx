@@ -4,14 +4,14 @@ import { FaArrowRight } from 'react-icons/fa'
 const Partner = () => {
   return (
     <>
-    <div className="finannnn">
-    <div className="banner-container_Rrrr">
-      <div className="banner-container__text">
+    <div className="finannnn_partner">
+    <div className="banner-container_Rrrr_partner">
+      <div className="banner-container__text_partner">
       Our Partners
       </div>
     </div>
     </div>
-    <div className="about_d_a">
+    <div className="about_d_a_partner">
     When you partner with Rotary, our 1.2 million members amplify your impact, elevate your brand, advance important causes, improve communities, and gain access to global connections.
     </div>
     <div className="partner_a">

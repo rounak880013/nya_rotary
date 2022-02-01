@@ -4,7 +4,7 @@
   body{
     margin: 0px;
   }
-  .banner-container_Rrrr {
+  .banner-container_Rrrr_partner {
     display: flex;
     width: 100%;
   left: 0px;
@@ -25,21 +25,21 @@
   background-size: 100% 533px;
   text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.69);
   }
-  .finannnn{
+  .finannnn_partner{
     display: flex;
     height: 579px;
   }
-  .banner-container__text{
+  .banner-container__text_partner{
     margin-left: auto;
     margin-right: auto;
     margin-top: 114px;
   }
   @media (max-width: 768px) {
-    .banner-container_Rrrr {
+    .banner-container_Rrrr_partner {
         padding: 100px 15px;
     }
   }
-  .about_d_a{
+  .about_d_a_partner{
     margin-top: 25px;
     margin-left: 9.51%;
     margin-right: 9.51%;
@@ -161,4 +161,93 @@
   .partner_h{
     margin-left: auto;
     margin-right: auto;
+  }
+  @media (max-width: 550px){
+    .banner-container_Rrrr_partner{
+      background: url('../assests/partner_45.png');
+      padding: 0px 0px;
+      background-repeat: no-repeat;
+      background-size: 100% 533px;
+    }
+    .banner-container__text_partner{
+      font-family: Georgia;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 60px;
+/* or 125% */
+
+text-align: justify;
+letter-spacing: 0.1em;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.69);
+    }
+    .about_d_a_partner{
+      margin-top: 0px;
+      margin-left: 16px;
+      margin-right: 16px;
+      font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 30px;
+/* or 200% */
+
+letter-spacing: 0.1em;
+
+/* 3 */
+
+color: #333333;
+
+    }
+    .partner_a{
+      margin-top: 50px;
+      margin-left: 16px;
+      margin-right: 16px;
+    }
+    .partner_b{
+      font-family: Georgia;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+/* or 117% */
+
+text-align: center;
+
+/* 2 */
+
+color: #1D4781;
+
+    }
+    .partner_d{
+      font-family: Georgia;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 35px;
+/* identical to box height, or 140% */
+
+
+/* 2 */
+
+color: #1D4781;
+    }
+    .partner_e{
+      font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 30px;
+/* or 200% */
+
+letter-spacing: 0.1em;
+
+/* 3 */
+
+color: #333333;
+    }
   }

@@ -7,14 +7,14 @@ import image4 from "../assests/leader Rectangle 2583.png"
 const Leader = () => {
   return (
     <>
-    <div className="finannnn">
-    <div className="banner-container_Rrrr">
-      <div className="banner-container__text">
+    <div className="finannnn_lead">
+    <div className="banner-container_Rrrr_lead">
+      <div className="banner-container__text_lead">
       Our Leaders
       </div>
     </div>
     </div>
-    <div className="about_d_a">
+    <div className="about_d_a_lead">
     Our leaders at Rotary exemplify all of the qualities that make our members extraordinary: integrity, expertise, and a commitment to service.
 <br/>
 Rotary is led by a diverse international team of top executives. Whether developing Rotary policy, providing financial support, managing a global staff, or advancing Rotary’s strategic plan, each member of the team is dedicated to helping our members connect and take action to create sustainable change.
