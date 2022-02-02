@@ -1,4 +1,4 @@
-import image9 from '../assests/Template 2.png'
+import image9 from '../assests/Group 1122.png'
 import image10 from '../assests/Vector.png'
 import image11 from '../assests/Vector (1).png'
 import image12 from '../assests/Vector (2).png'
@@ -71,7 +71,7 @@ function Footer(){
           <div className='footerinform'>
             Social Media
           </div>
-          <div>
+          <div className='foo_footer'>
             <img src={image13} alt=""/>
             <img src={image14} alt="" className='social_space'/>
             <img src={image15} alt="" className='social_space'/>

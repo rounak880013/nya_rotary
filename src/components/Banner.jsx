@@ -7,7 +7,7 @@ import image6 from '../assests/image 28 (2).png'
 import image7 from '../assests/image 27.png'
 import image16 from '../assests/image 26 (3).png'
 import image17 from '../assests/image 28(3).png'
-import { FaArrowRight } from 'react-icons/fa';
+import { FaLongArrowAltRight } from 'react-icons/fa';
 import "./Home.css";
 function Banner(){
     return(
@@ -18,7 +18,7 @@ function Banner(){
         <img src={image1} alt="Avatar" class="image"/>
         <div class="overlay">
           <div class="text">Promoting <br/>Peace</div>
-          <div class="text_1">View More<FaArrowRight/></div>
+          <div class="text_1">View More<FaLongArrowAltRight/></div>
         </div>
       </div>
       <div class="rty">
@@ -26,7 +26,7 @@ function Banner(){
         <img  src={image2} alt="Avatar" class="image" class="imageg" />
         <div class="overlay">
           <div class="text">Fighting<br/>Disease</div>
-          <div class="text_1">View More<FaArrowRight/></div>
+          <div class="text_1">View More<FaLongArrowAltRight/></div>
         </div>
       </div>
       </div>
@@ -37,7 +37,7 @@ function Banner(){
         <img  src={image3} alt="Avatar" class="image" class="imageg" />
         <div class="overlay">
           <div class="text">Providing<br/>clean<br/>water</div>
-          <div class="text_1">View More<FaArrowRight/></div>
+          <div class="text_1">View More<FaLongArrowAltRight/></div>
         </div>
       </div>
       </div>
@@ -46,7 +46,7 @@ function Banner(){
         <img  src={image4} alt="Avatar" class="image" class="imageg" />
         <div class="overlay">
           <div class="text">Saving Mothers<br/>& Children</div>
-          <div class="text_1">View More<FaArrowRight/></div>
+          <div class="text_1">View More<FaLongArrowAltRight/></div>
         </div>
       </div>
       </div>
@@ -55,7 +55,7 @@ function Banner(){
         <img  src={image5} alt="Avatar" class="image" class="imageg" />
         <div class="overlay">
           <div class="text">Supporting<br/>education</div>
-          <div class="text_1">View More<FaArrowRight/></div>
+          <div class="text_1">View More<FaLongArrowAltRight/></div>
         </div>
       </div>
       </div>
@@ -67,7 +67,7 @@ function Banner(){
         <img  src={image16} alt="Avatar" class="image" class="imageg" />
         <div class="overlay">
           <div class="text">Providing<br/>clean<br/>water</div>
-          <div class="text_1">View More<FaArrowRight/></div>
+          <div class="text_1">View More<FaLongArrowAltRight/></div>
         </div>
       </div>
       </div>
@@ -76,7 +76,7 @@ function Banner(){
         <img  src={image17} alt="Avatar" class="image" class="imageg" />
         <div class="overlay">
           <div class="text">Saving Mothers & Children</div>
-          <div class="text_1">View More<FaArrowRight/></div>
+          <div class="text_1">View More<FaLongArrowAltRight/></div>
         </div>
       </div>
     </div>
@@ -86,7 +86,7 @@ function Banner(){
         <img  src={image5} alt="Avatar" class="image" class="imageg" />
         <div class="overlay">
           <div class="text">Supporting<br/>education</div>
-          <div class="text_1">View More<FaArrowRight/></div>
+          <div class="text_1">View More<FaLongArrowAltRight/></div>
         </div>
       </div>
       </div>
@@ -96,7 +96,7 @@ function Banner(){
         <img src={image6} alt="Avatar" class="image"/>
         <div class="overlay">
         <div class="text">Growing<br/>Local Economies</div>
-          <div class="text_1">View More<FaArrowRight/></div>
+          <div class="text_1">View More<FaLongArrowAltRight/></div>
         </div>
       </div>
       <div class="rty">
@@ -104,7 +104,7 @@ function Banner(){
         <img  src={image7} alt="Avatar" class="image" class="imageg" />
         <div class="overlay">
         <div class="text">Protecting<br/>the environment</div>
-          <div class="text_1">View More<FaArrowRight/></div>
+          <div class="text_1">View More<FaLongArrowAltRight /></div>
         </div>
       </div>
       </div>
@@ -112,7 +112,7 @@ function Banner(){
     <div className='banner_bottom'>
       <div className='banner_bottom_button'>
       <div className='contact_us'>
-      <button><div className='contact_us_A'>All Projects<div className="contact_us_A_a"><FaArrowRight size={10}/></div></div></button>
+      <button><div className='contact_us_A'>All Projects&nbsp;<FaLongArrowAltRight/></div></button>
     </div>
       </div>
     </div>
