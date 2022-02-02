@@ -204,6 +204,7 @@ color: #FFFFFF;
     margin-left: 0px;
   }
   .banner_2{
+    margin-top: 10px;
     flex-direction: column;
   }
 }
