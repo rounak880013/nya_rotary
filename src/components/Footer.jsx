@@ -1,11 +1,14 @@
+import React, { useState } from "react";
 import image9 from '../assests/Group 1122.png'
-import image10 from '../assests/Vector.png'
-import image11 from '../assests/Vector (1).png'
-import image12 from '../assests/Vector (2).png'
 import image13 from '../assests/facebook.png'
 import image14 from '../assests/twitter.png'
 import image15 from '../assests/linkedin1.png'
+import { IoLocationOutline } from "react-icons/io5";
+import { RiPhoneLine } from "react-icons/ri";
+import { TiMail } from "react-icons/ti";
+
 import "./Home.css";
+import { NavLink } from "react-router-dom";
 function Footer(){
     return(
         <footer>
@@ -43,7 +46,7 @@ function Footer(){
           </div>
           <div className='cont_a'>
             <div>
-              <img src={image10} alt=""/>
+              <div style={{color:"white",fontSize:"2.1rem"}}> <IoLocationOutline/></div>
             </div>
             <div className='margincont'>
               RBW Silver Jubilee Hall.13th Cross, 4th Main,Malleshwaram, Bengaluru - 560 003.Premises of Composite Girls Govt PU College
@@ -51,7 +54,8 @@ function Footer(){
           </div>
           <div className='cont_b'>
             <div>
-              <img src={image11} alt=""/>
+            <div style={{color:"white",fontSize:"2.1rem"}}> <RiPhoneLine/></div>
+            
             </div>
             <div className='margincont'>
               +91 93412 15692
@@ -59,7 +63,7 @@ function Footer(){
           </div>
           <div className='cont_c'>
             <div>
-              <img src={image12} alt=""/>
+            <div style={{color:"white",fontSize:"2.1rem"}}> <TiMail/></div>
             </div>
             <div className='margincont'>
               <div>sec.rotarybangalorewest</div><div>@gmail.com</div>

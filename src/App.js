@@ -18,6 +18,7 @@ const App = () => {
     <>
     <Navbar/>
       <Banner/>
+      <Contact/>
       <Footer/>
       </>
   );
