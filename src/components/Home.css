@@ -659,3 +659,16 @@ color: #1D4781;
 .foo_footer{
   margin-top: 26px;
 }
+.rtyee{
+  display: none;
+}
+@media only screen and (max-width: 1300px){
+  .rtyee{
+    display:flex;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .rtye{
+    display: none;
+  }
+}

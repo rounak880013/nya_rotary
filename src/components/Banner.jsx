@@ -7,6 +7,7 @@ import image6 from '../assests/image 28 (2).png'
 import image7 from '../assests/image 27.png'
 import image16 from '../assests/image 26 (3).png'
 import image17 from '../assests/image 28(3).png'
+import image18 from '../assests/image 28 (4).png'
 import { FaLongArrowAltRight } from 'react-icons/fa';
 import "./Home.css";
 function Banner(){
@@ -84,6 +85,15 @@ function Banner(){
       <div class="rtye">
       <div class="container" >
         <img  src={image5} alt="Avatar" class="image" class="imageg" />
+        <div class="overlay">
+          <div class="text">Supporting<br/>education</div>
+          <div class="text_1">View More<FaLongArrowAltRight/></div>
+        </div>
+      </div>
+      </div>
+      <div class="rtyee">
+      <div class="container" >
+        <img  src={image18} alt="Avatar" class="image" class="imageg" />
         <div class="overlay">
           <div class="text">Supporting<br/>education</div>
           <div class="text_1">View More<FaLongArrowAltRight/></div>
