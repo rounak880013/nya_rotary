@@ -121,7 +121,7 @@ function Banner(){
     </div>
     <div className='banner_bottom'>
       <div className='banner_bottom_button'>
-      <div className='contact_us'>
+      <div className='contact_us_k'>
       <button><div className='contact_us_A'>All Projects&nbsp;<FaLongArrowAltRight/></div></button>
     </div>
       </div>

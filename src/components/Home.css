@@ -662,6 +662,24 @@ color: #1D4781;
 .rtyee{
   display: none;
 }
+.contact_us_k{
+  height: 71px;
+}
+.contact_us_k>button {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 12px;
+  letter-spacing: 0.2em;
+  width: 100%;
+  height: 71px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #1D4781;
+  border: solid #1D4781 3px;
+  display: flex;
+}
 @media only screen and (max-width: 1300px){
   .rtyee{
     display:flex;
