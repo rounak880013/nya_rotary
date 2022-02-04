@@ -69,7 +69,6 @@
     width: 282px;
   }
   .about_leader_b{
-    margin-left: 17px;
     margin-top: 23px;
     margin-bottom: 75px;
   }
@@ -162,6 +161,10 @@ color: #333333;
       margin-left: auto;
       margin-right: auto;
     }
+    
+  .about_leader_b>img {
+    width: 100%;
+}
     .about_leader_d{
       font-family: Georgia;
 font-style: normal;
@@ -203,4 +206,11 @@ letter-spacing: 0.1em;
 
 color: #333333;
     }
+  }
+  @media (max-width: 550px){
+    .banner-container_Rrrr_lead{
+      background: url('../assests/Mask\ Group\ \(2\)\ 2.png');
+
+    }
+
   }
