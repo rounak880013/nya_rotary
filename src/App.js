@@ -16,9 +16,8 @@ const App = () => {
   
   return (
     <>
-    <div className="Curasollalala">
-    Ending Polio Forever
-    </div>
+      <About/>
+      <Footer/>
       </>
   );
 };

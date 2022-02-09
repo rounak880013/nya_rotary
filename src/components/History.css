@@ -27,6 +27,7 @@ body{
     height: 579px;
   }
   .banner-container__text_history{
+    font-family: Georgia;
     margin-left: auto;
     margin-right: auto;
     margin-top: 114px;
@@ -202,3 +203,6 @@ margin-right: 16px;
       margin-left: 16px;
     }
   }
+.about_b_a_b_a>img{
+  border-radius: 50%;
+}

@@ -24,7 +24,7 @@ letter-spacing: 0.2em;
 color: #FFFFFF;
 }
 .about_header_a_a{
-  margin-top: 54px;
+  margin-top: 10px;
   font-family: Georgia;
 font-style: normal;
 font-weight: normal;
@@ -342,4 +342,24 @@ color: #333333;
   width:100%;
   margin-top:10px;
 }
+}
+li{
+  list-style-position: inside;
+  list-style-type: disc;
+}
+.about_miss{
+  font-family: Georgia;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 64px;
+/* identical to box height, or 100% */
+
+
+/* 2 */
+
+color: #1D4781;
+margin-top: 60px;
+margin-bottom: 60px;
+margin-left: 9.65%;
 }

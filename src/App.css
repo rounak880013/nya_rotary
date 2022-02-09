@@ -1,46 +1,4 @@
-.Curasollalala{
-    
-position: absolute;
-width: 464px;
-height: 180px;
-left: 108px;
-top: 239px;
-
-background: rgba(0, 0, 0, 0.5);
-border-radius: 8px;
-font-family: Arial;
-font-style: normal;
-font-weight: bold;
-font-size: 64px;
-line-height: 64px;
-/* or 100% */
-
-
-color: #FFFFFF;
-padding-left: 26px;
-padding-top: 26px;
-}
-@media (max-width: 740px){
-    .Curasollalala{
-        position: absolute;
-width: 182px;
-height: 151px;
-left: 23px;
-top: 282px;
-
-background: rgba(0, 0, 0, 0.5);
-border-radius: 8px;
-
-font-family: Arial;
-font-style: normal;
-font-weight: bold;
-font-size: 36px;
-line-height: 44px;
-/* or 122% */
-
-
-color: #FFFFFF;
-padding-left: 11px;
-padding-top: 12px;
-    }
+li{
+    list-style-position: inside;
+    list-style-type: disc;
 }

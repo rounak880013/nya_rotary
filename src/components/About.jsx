@@ -28,9 +28,10 @@ const App = () => {
     </div>
     <div className="about_a_b">
       <div className="about_a_b_a">
-        What we do
+      WHAT WE DO
         <div className="about_a_b_c">
         Rotary members believe that we have a shared responsibility to take action on our world’s most persistent issues. Our 35,000+ clubs work together to:
+        <br/>
         <br/>
         <ul>
         <li>Promote peace</li>
@@ -43,11 +44,14 @@ const App = () => {
         </div>
       </div>
       <div className="about_a_b_b">
-        Our Mission
+      OUR MISSION
         <div className="about_a_b_c">
         We provide service to others, promote integrity, and advance world understanding, goodwill, and peace through our fellowship of business, professional, and community leaders.
         </div>
       </div>
+    </div>
+    <div className="about_miss">
+    More Topics
     </div>
     <div className="about_a_c">
       <div className="about_a_c_a">

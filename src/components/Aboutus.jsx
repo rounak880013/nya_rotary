@@ -2,7 +2,7 @@ import image18 from "../assests/image.png"
 import image19 from "../assests/image1.png"
 import image20 from "../assests/image2.png"
 import "./Home.css";
-import { FaArrowRight } from 'react-icons/fa';
+import { BsArrowRight } from 'react-icons/bs';
 function Aboutus(){
  return(
     <>
@@ -21,7 +21,7 @@ function Aboutus(){
       <div className="about_us_e">About</div>
       <div>Rotary is a global network of 1.2 million neighbors, friends, leaders, and problem-solvers who see a world where people unite and take action to create lasting change - across the globe, in our communities, and in ourselves.Solving real problems takes real commitment and vision. For more than 110 years, Rotary's people of action have used their passion, energy, and intelligence to take action on sustainable projects. From literacy and peace to water and health, we are always working to better our world, and we stay committed to the end.</div>
       <div className='contact_us'>
-      <button><div className='contact_us_A'>Read More<div className="contact_us_A_a"><FaArrowRight size={12}/></div></div></button>
+      <button><div className='contact_us_A'>Read More&nbsp;<div className='adju'><BsArrowRight size={14}/></div></div></button>
     </div>
       </div>
     </div>

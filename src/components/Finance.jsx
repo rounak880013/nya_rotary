@@ -1,5 +1,5 @@
 import './Finance.css';
-import { FaArrowRight } from 'react-icons/fa';
+import { BsArrowRight } from 'react-icons/bs';
 function Finance(){
     return(
         <>
@@ -32,7 +32,7 @@ Rotary is led by a diverse international team of top executives. Whether develop
       </div>
     </div>
     <div className='contact_us_rt'>
-      <button><div className='contact_us_A_rt'>Read More<div className="contact_us_A_a_rt"><FaArrowRight size={12}/></div></div></button>
+      <button><div className='contact_us_A_rt'>VEIW REPORTS<div className='adju'><BsArrowRight size={14}/></div></div></button>
     </div>
     </>
     );
