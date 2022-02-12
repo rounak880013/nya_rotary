@@ -16,7 +16,9 @@ const App = () => {
   
   return (
     <>
-      <About/>
+      <Aboutus/>
+      <Banner/>
+      <Contact/>
       <Footer/>
       </>
   );

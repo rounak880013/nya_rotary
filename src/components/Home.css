@@ -464,6 +464,8 @@ background: #2C2C2C;
 }
 .social{
   margin-top: 56px;
+  margin-left: auto;
+  margin-right: 5px;
 }
 .footername{
   margin-top: 25px;
@@ -537,6 +539,7 @@ color: #FFFFFF;
 
 .footerdata{
   display: flex;
+  margin-left: auto;
 }
 .margincont{
   display: flex;
@@ -696,7 +699,7 @@ color: #1D4781;
 .adju{
   margin-top: -2px;
 }
-@media only screen and (max-width: 1300px){
+@media only screen and (max-width: 1380px){
   .social_space {
     margin-left:10px;
   }
@@ -704,5 +707,13 @@ color: #1D4781;
 @media only screen and (max-width: 1070px){
   .social_space {
     margin-left:40px;
+  }
+}
+@media only screen and (max-width: 1075px){
+  .social{
+    margin-left:0px;
+  }
+  .footerdata{
+    margin-left: 0px;
   }
 }
