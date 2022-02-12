@@ -464,8 +464,6 @@ background: #2C2C2C;
 }
 .social{
   margin-top: 56px;
-  margin-left: auto;
-  margin-right: 5px;
 }
 .footername{
   margin-top: 25px;
@@ -539,7 +537,6 @@ color: #FFFFFF;
 
 .footerdata{
   display: flex;
-  margin-left: auto;
 }
 .margincont{
   display: flex;
