@@ -58,7 +58,7 @@ function Footer(){
             
             </div>
             <div className='margincont'>
-              +91 93412 15692
+              +919341215692
             </div>
           </div>
           <div className='cont_c'>
