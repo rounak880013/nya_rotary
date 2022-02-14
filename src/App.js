@@ -16,9 +16,7 @@ const App = () => {
   
   return (
     <>
-      <Aboutus/>
-      <Banner/>
-      <Contact/>
+      <History/>
       <Footer/>
       </>
   );

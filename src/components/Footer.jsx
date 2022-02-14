@@ -3,6 +3,9 @@ import image9 from '../assests/Group 1122.png'
 import image13 from '../assests/facebook.png'
 import image14 from '../assests/twitter.png'
 import image15 from '../assests/linkedin1.png'
+import { FaFacebookF } from "react-icons/fa";
+import { AiOutlineTwitter } from "react-icons/ai";
+import { BsLinkedin } from "react-icons/bs";
 import { IoLocationOutline } from "react-icons/io5";
 import { RiPhoneLine } from "react-icons/ri";
 import { TiMail } from "react-icons/ti";
@@ -76,9 +79,9 @@ function Footer(){
             Social Media
           </div>
           <div className='foo_footer'>
-            <img src={image13} alt=""/>
-            <img src={image14} alt="" className='social_space'/>
-            <img src={image15} alt="" className='social_space'/>
+            <FaFacebookF size={24}/>
+            <div className='social_space'><AiOutlineTwitter size={24}/></div>
+            <div className='social_space'><BsLinkedin size={24}/></div>
           </div>
         </div>
       </div>

@@ -670,6 +670,7 @@ color: #1D4781;
 }
 .foo_footer{
   margin-top: 26px;
+  display: flex;
 }
 .rtyee{
   display: none;
