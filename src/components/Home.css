@@ -541,8 +541,7 @@ color: #FFFFFF;
 .margincont{
   display: flex;
 }
-@media only screen and (max-width:1080p
-x) {
+@media only screen and (max-width:1084px) {
   .footerdistance{
     margin-left: 27px;
     flex-direction: column;
