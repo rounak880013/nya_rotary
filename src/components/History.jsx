@@ -13,6 +13,7 @@ function History(){
     <div className="about_d_a_history">
     Rotary started with the vision of one man — Paul Harris. The Chicago attorney formed the Rotary Club of Chicago on 23 February 1905, so professionals with diverse backgrounds could exchange ideas and form meaningful, lifelong friendships.
 <br/>
+        <br/>
 Over time, Rotary’s reach and vision gradually extended to humanitarian service. Members have a long track record of addressing challenges in their communities and around the world.
     </div>
     <div className="about_b_a">
