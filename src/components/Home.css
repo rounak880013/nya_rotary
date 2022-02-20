@@ -627,6 +627,8 @@ color: #333333;
 }
 .about_us_d{
   width: 49%;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 .imagegg {
   display: block;
