@@ -1,13 +1,13 @@
 import image1 from '../assests/image 26.png'
-import image2 from '../assests/image 26 (1).png'
-import image3 from '../assests/image 26 (2).png'
+import image2 from '../assests/Fighting Disease 2 1.png'
+import image3 from '../assests/Providing Clean Water 1 1.png'
 import image4 from '../assests/image 28.png'
-import image5 from '../assests/image 28 (1).png'
-import image6 from '../assests/image 28 (2).png'
-import image7 from '../assests/image 27.png'
-import image16 from '../assests/image 26 (3).png'
+import image5 from '../assests/Supporting Education 1 1.png'
+import image6 from '../assests/Supporting Local Economies 1 1.png'
+import image7 from '../assests/Environment 1 1.png'
+import image16 from '../assests/Providing Clean Water 1.png'
 import image17 from '../assests/image 28(3).png'
-import image18 from '../assests/image 28 (4).png'
+import image18 from '../assests/Supporting Education 1.png'
 
 import { BsArrowRight } from 'react-icons/bs';
 import "./Home.css";

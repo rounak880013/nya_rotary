@@ -1,6 +1,6 @@
-import image18 from "../assests/image.png"
-import image19 from "../assests/image1.png"
-import image20 from "../assests/image2.png"
+import image18 from "../assests/About Rotary 1.jpg"
+import image19 from "../assests/About Rotary 3.jpg"
+import image20 from "../assests/About Rotary 2.jpg"
 import "./Home.css";
 import { BsArrowRight } from 'react-icons/bs';
 function Aboutus(){
